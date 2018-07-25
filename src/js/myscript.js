@@ -137,7 +137,7 @@ $(function () {
         if (imgCount==5) {
             imgCount=0;
         }
-            imgCount++;
+            imgCount--;
     });
 });
 
