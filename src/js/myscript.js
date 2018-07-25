@@ -130,7 +130,8 @@ $(function () {
     })
 
 $(function () {
-    var imgCount=2;
+    var imgCount=11;
+    
     $('#_img').click(function () {
         $(this).fadeOut(800).attr('src', 'images/IMG_'+(imgCount)+'.JPG').fadeIn(800);
         if (imgCount==5) {
